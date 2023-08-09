@@ -1,2 +1,2 @@
-# bmi_calculator
+# BMI calculator
 A Body Mass Index (BMI) calculator using HTML, CSS and Javacript.
