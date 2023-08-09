@@ -131,6 +131,14 @@ body {
     color:#cbd5e1;
 }
 
+.normal {
+    color: #16a34a;
+}
+
+.attention {
+    color: #dc2626;
+}
+
 #description {
    width: 15.5rem;
 }
@@ -158,4 +166,24 @@ body {
 
 .hidden {
     display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    #img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #container {
+        width: 100%;
+        height: 100%;
+    }
+
+    #calculator {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        justify-content: center;
+    }
 }
